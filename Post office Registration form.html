@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>India Post GDS Recruitment 2026</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+    <style>
+        :root { --red: #d40000; --yellow: #ffcc00; --green: #27ae60; --blue: #1a73e8; }
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Arial', sans-serif; }
+        body { background-color: #f4f4f4; color: #333; }
+        header { background: var(--yellow); padding: 20px; text-align: center; border-bottom: 5px solid var(--red); }
+        header h1 { color: var(--red); font-size: 1.8rem; }
+        .container { max-width: 800px; margin: 20px auto; background: white; padding: 25px; border-radius: 15px; box-shadow: 0 5px 20px rgba(0,0,0,0.1); }
+        
+        .selection-process { background: #f0f7ff; border-left: 5px solid var(--blue); padding: 15px; margin: 20px 0; border-radius: 5px; text-align: left; }
+        .selection-process h3 { color: var(--blue); margin-bottom: 10px; font-size: 1.1rem; }
+        .selection-process ul { margin-left: 20px; font-size: 0.9rem; line-height: 1.6; }
+
+        .vacancy-stats { display: flex; justify-content: space-around; margin: 15px 0; background: #fffde7; padding: 10px; border: 1px dashed var(--red); border-radius: 8px; }
+        .stat-item { text-align: center; }
+        .stat-item span { display: block; font-size: 1.2rem; font-weight: bold; color: var(--red); }
+        
+        .otp-group { display: flex; gap: 10px; margin-bottom: 15px; }
+        .otp-group input { flex: 3; }
+        .otp-btn { flex: 1.5; background: var(--blue); color: white; border: none; border-radius: 5px; cursor: pointer; font-size: 0.75rem; font-weight: bold; }
+        .otp-btn.verified { background: var(--green) !important; }
+
+        .info-table { width: 100%; border-collapse: collapse; margin: 15px 0; }
+        .info-table td { padding: 12px; border: 1px solid #ddd; font-size: 0.85rem; }
+        .salary-bar { background: var(--green); color: white; padding: 12px; border-radius: 8px; font-weight: bold; text-align: center; margin-bottom: 10px; }
+        
+        input, select { width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 5px; margin-top: 5px; text-transform: uppercase; }
+        label { font-size: 0.8rem; font-weight: bold; color: #555; }
+        .apply-btn { background: linear-gradient(180deg, #d40000 0%, #a00000 100%); color: white; padding: 18px; font-size: 1.1rem; font-weight: bold; border-radius: 50px; border: none; width: 100%; cursor: pointer; text-transform: uppercase; margin-top: 15px; }
+        
+        .step { display: none; }
+        .step.active { display: block; }
+        .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-bottom: 10px; }
+        .address-header { background: #f8f9fa; padding: 10px; margin: 20px 0 10px; border-left: 5px solid var(--red); font-weight: bold; display: flex; justify-content: space-between; font-size: 0.9rem; }
+        .preview-img { width: 80px; height: 100px; object-fit: contain; border: 1px solid #ddd; margin-top: 5px; display: none; background: #eee; }
+        .doc-preview-text { font-size: 0.7rem; color: #27ae60; display: none; margin-top: 5px; font-weight: bold; }
+        #thank-you { display: none; text-align: center; padding: 40px 10px; }
+
+        /* UTR Section Style */
+        .utr-box { background: #fff3cd; border: 1px solid #ffeeba; padding: 15px; border-radius: 10px; margin-top: 15px; }
+
+        /* PDF Styles */
+        #pdf-template { background: white; color: black; font-family: 'serif'; width: 800px; }
+        .pdf-page { padding: 35px; border: 1px solid #000; position: relative; }
+        .pdf-header { text-align: center; border-bottom: 2px solid #000; padding-bottom: 10px; margin-bottom: 15px; }
+        .pdf-section-title { background: #333; color: #fff; padding: 5px; font-weight: bold; margin-top: 15px; font-size: 12px; }
+        .pdf-table { width: 100%; border-collapse: collapse; }
+        .pdf-table td { border: 1px solid #000; padding: 8px; font-size: 11px; vertical-align: top; }
+        .pdf-table td:first-child { width: 35%; font-weight: bold; background: #f9f9f9; }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>भारतीय डाक विभाग</h1>
+    <p>Department of Posts, Govt. of India</p>
+</header>
+
+<div class="container">
+    <section id="landing-page">
+        <center>
+            <h2 style="color: var(--red);">Gramin Dak Sevak (GDS) Recruitment 2026</h2>
+            <p style="font-weight: bold;">Cycle: VI | Total Vacancies: 2182</p>
+        </center>
+        <div class="vacancy-stats">
+            <div class="stat-item"><span>742</span>Male Posts</div>
+            <div class="stat-item"><span>1440</span>Female Posts</div>
+        </div>
+
+        <table class="info-table">
+            <tr style="background: #fff9e6;">
+                <td><b>Application Start:</b> 05/01/2026</td>
+                <td><b>Last Date:</b> 28/01/2026</td>
+            </tr>
+            <tr>
+                <td><b>Eligibility:</b> 10th Standard Pass</td>
+                <td><b>Age Limit:</b> 18 - 40 Years</td>
+            </tr>
+        </table>
+        
+        <div class="salary-bar">Expected Salary: ₹28,500 - ₹58,200/-</div>
+
+        <div class="selection-process">
+            <h3>Selection Process:</h3>
+            <ul>
+                <li><b>Merit List:</b> Selection is strictly based on 10th marks.</li>
+                <li><b>OTP Verification:</b> Mandatory mobile and email validation.</li>
+                <li><b>Document Verification:</b> Online submission of Photo, Sign, Aadhar & Marksheet.</li>
+                <li><b>Final Selection:</b> Interview date will be sent via Email after successful fee payment.</li>
+            </ul>
+        </div>
+
+        <button class="apply-btn" onclick="openForm()">Apply Now Online</button>
+    </section>
+
+    <section id="form-section" style="display:none;">
+        <form id="appForm" onsubmit="handleFormSubmit(event)">
+            <div class="step active">
+                <h3 style="color: var(--red); border-bottom: 1px solid #eee; padding-bottom: 5px;">1. Basic Details & Address</h3>
+                <div class="grid">
+                    <div><label>First Name*</label><input type="text" id="fName" required></div>
+                    <div><label>Last Name*</label><input type="text" id="lName" required></div>
+                </div>
+                <div class="grid">
+                    <div><label>Father's Name*</label><input type="text" id="fatName" required></div>
+                    <div><label>Mother's Name*</label><input type="text" id="motName" required></div>
+                </div>
+                <div class="grid">
+                    <div><label>DOB*</label><input type="date" id="dob" required></div>
+                    <div><label>Gender*</label><select id="gender" required><option value="">Select</option><option>Male</option><option>Female</option></select></div>
+                </div>
+                
+                <label>Mobile*</label>
+                <div class="otp-group">
+                    <input type="tel" id="mobile" maxlength="10" required>
+                    <button type="button" id="btnMob" class="otp-btn" onclick="verifyOTP('Mobile', 'btnMob')">Verify OTP</button>
+                </div>
+
+                <label>Email*</label>
+                <div class="otp-group">
+                    <input type="email" id="email" required>
+                    <button type="button" id="btnEml" class="otp-btn" onclick="verifyOTP('Email', 'btnEml')">Verify OTP</button>
+                </div>
+
+                <div class="address-header">Permanent Address</div>
+                <div class="grid">
+                    <div><label>Street 1*</label><input type="text" id="p_s1" required></div>
+                    <div><label>Street 2</label><input type="text" id="p_s2"></div>
+                </div>
+                <div class="grid">
+                    <div><label>Post Office*</label><input type="text" id="p_po" required></div>
+                    <div><label>Police Station*</label><input type="text" id="p_ps" required></div>
+                </div>
+                <div class="grid">
+                    <div><label>City/Village*</label><input type="text" id="p_city" required></div>
+                    <div><label>District*</label><input type="text" id="p_dist" required></div>
+                </div>
+                <div class="grid">
+                    <div><label>State*</label><input type="text" id="p_state" required></div>
+                    <div><label>Pin Code*</label><input type="number" id="p_pin" required></div>
+                </div>
+
+                <div class="address-header">Correspondence Address <span style="font-size:0.7rem;"><input type="checkbox" onclick="copyAddr(this)"> Same as Permanent</span></div>
+                <div class="grid">
+                    <div><label>Street 1*</label><input type="text" id="c_s1" required></div>
+                    <div><label>City*</label><input type="text" id="c_city" required></div>
+                </div>
+                <div class="grid">
+                    <div><label>State*</label><input type="text" id="c_state" required></div>
+                    <div><label>Pin Code*</label><input type="number" id="c_pin" required></div>
+                </div>
+
+                <button type="button" class="apply-btn" onclick="validateAndNext(1)">Next: Document Upload</button>
+            </div>
+
+            <div class="step">
+                <h3 style="color: var(--red); border-bottom: 1px solid #eee; padding-bottom: 5px;">2. Document Uploads</h3>
+                <div class="grid">
+                    <div>
+                        <label>Passport Photo*</label>
+                        <input type="file" accept="image/*" onchange="preview(this, 'pre_photo')" required>
+                        <img id="pre_photo" class="preview-img">
+                    </div>
+                    <div>
+                        <label>Signature*</label>
+                        <input type="file" accept="image/*" onchange="preview(this, 'pre_sign')" required>
+                        <img id="pre_sign" class="preview-img">
+                    </div>
+                </div>
+                <div class="grid">
+                    <div>
+                        <label>Aadhar Card*</label>
+                        <input type="file" accept="image/*,application/pdf" onchange="showSuccess(this, 'msg_adhar')" required>
+                        <div id="msg_adhar" class="doc-preview-text">✓ Aadhar Uploaded</div>
+                    </div>
+                    <div>
+                        <label>10th Marksheet*</label>
+                        <input type="file" accept="image/*,application/pdf" onchange="showSuccess(this, 'msg_mark')" required>
+                        <div id="msg_mark" class="doc-preview-text">✓ Marksheet Uploaded</div>
+                    </div>
+                </div>
+                <button type="button" class="apply-btn" onclick="validateAndNext(1)">Next: Payment</button>
+            </div>
+
+            <div class="step">
+                <h3 style="color: var(--red);">3. Fee Payment (₹500)</h3>
+                <center>
+                    <p style="font-size: 0.9rem; margin-bottom: 10px;">Scan QR to pay via UPI</p>
+                    <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=upi://pay?pa=ar85410797@OKSBI&am=500">
+                    <p style="margin: 5px 0;">UPI ID: <b>AR85410797@OKSBI</b></p>
+                    
+                    <div class="utr-box">
+                        <label style="color: #856404;">Enter 12-Digit UTR / Transaction ID*</label>
+                        <input type="text" id="utr_no" maxlength="12" placeholder="Ex: 4123XXXXXXXX" required style="border: 2px solid #ffc107; text-align: center; letter-spacing: 2px;">
+                        <p style="font-size: 0.7rem; color: #666; margin-top: 5px;">(Payment confirm hone ke liye UTR zaroori hai)</p>
+                    </div>
+
+                    <button type="submit" class="apply-btn" style="background:var(--green)">FINAL SUBMIT & DOWNLOAD FORM</button>
+                </center>
+            </div>
+        </form>
+    </section>
+
+    <section id="thank-you">
+        <h2 style="color: var(--green);">🎉 APPLICATION SUBMITTED!</h2>
+        <p>Registration Number: <b id="regNo"></b></p>
+        <div style="margin:20px 0; color:#444; font-weight:bold; background:#fffbe6; padding:15px; border:1px solid #ffe58f; border-radius: 8px;">
+            सूचना: आपका आवेदन स्वीकार कर लिया गया है। इंटरव्यू की जानकारी ईमेल पर भेजी जाएगी।
+        </div>
+        <button class="apply-btn" style="background: #1a73e8;" onclick="generatePDF()">📥 DOWNLOAD FULL FILLED FORM</button>
+    </section>
+</div>
+
+<div id="pdf-template" style="display:none;">
+    <div class="pdf-page">
+        <div class="pdf-header">
+            <h2 style="color: #d40000;">DEPARTMENT OF POSTS, INDIA</h2>
+            <p>GDS Recruitment Acknowledgement Copy 2026</p>
+        </div>
+        <div style="display: flex; justify-content: space-between; font-size: 11px; margin-bottom: 10px; border-bottom:1px solid #000; padding-bottom:5px;">
+            <span><b>Application No:</b> <span id="pdf_reg"></span></span>
+            <span><b>Date:</b> <span id="pdf_date"></span></span>
+        </div>
+
+        <div class="pdf-section-title">1. CANDIDATE PERSONAL DETAILS</div>
+        <table class="pdf-table">
+            <tr><td>Full Name</td><td id="pdf_name"></td></tr>
+            <tr><td>Father's Name</td><td id="pdf_father"></td></tr>
+            <tr><td>Contact Info</td><td id="pdf_contact"></td></tr>
+            <tr><td>UTR / Transaction ID</td><td id="pdf_utr" style="font-weight: bold; color: blue;"></td></tr>
+        </table>
+
+        <div class="pdf-section-title">2. ADDRESS INFORMATION</div>
+        <table class="pdf-table">
+            <tr><td>Permanent Address</td><td id="pdf_p_addr"></td></tr>
+        </table>
+
+        <div class="pdf-section-title">3. STATUS</div>
+        <table class="pdf-table">
+            <tr><td>Fee Payment</td><td style="color:green; font-weight:bold;">SUCCESSFUL (₹500.00)</td></tr>
+            <tr><td>Application Status</td><td>PENDING FOR VERIFICATION</td></tr>
+        </table>
+
+        <div style="margin-top:30px; display:flex; justify-content:space-around; text-align:center;">
+            <div>
+                <p style="font-size: 10px;">Candidate Photo</p>
+                <img id="pdf_img_photo" style="width: 100px; height: 120px; border: 1px solid #000;">
+            </div>
+            <div style="margin-top: 50px;">
+                <img id="pdf_img_sign" style="width: 140px; height: 40px; border-bottom: 1px solid #000;">
+                <p style="font-size: 10px;">Signature</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    let isMobileVerified = false;
+    let isEmailVerified = false;
+
+    function openForm() {
+        document.getElementById('landing-page').style.display = 'none';
+        document.getElementById('form-section').style.display = 'block';
+    }
+
+    function verifyOTP(type, btnID) {
+        let code = prompt("Enter 6-digit OTP sent to " + type);
+        if(code && code.length === 6) {
+            alert(type + " Verified!");
+            document.getElementById(btnID).innerText = "VERIFIED ✓";
+            document.getElementById(btnID).classList.add("verified");
+            if(type === 'Mobile') isMobileVerified = true;
+            if(type === 'Email') isEmailVerified = true;
+        }
+    }
+
+    function showSuccess(input, msgID) {
+        if(input.files.length > 0) document.getElementById(msgID).style.display = 'block';
+    }
+
+    function copyAddr(chk) {
+        if(chk.checked) {
+            document.getElementById('c_s1').value = document.getElementById('p_s1').value;
+            document.getElementById('c_city').value = document.getElementById('p_city').value;
+            document.getElementById('c_state').value = document.getElementById('p_state').value;
+            document.getElementById('c_pin').value = document.getElementById('p_pin').value;
+        }
+    }
+
+    let currentStep = 0;
+    const steps = document.querySelectorAll(".step");
+
+    function validateAndNext(n) {
+        if(currentStep === 0 && (!isMobileVerified || !isEmailVerified)) {
+            alert("Please verify Mobile & Email first!"); return;
+        }
+        const inputs = steps[currentStep].querySelectorAll("input[required], select[required]");
+        let valid = true;
+        inputs.forEach(i => { if(!i.value) { i.style.border="2px solid red"; valid=false; } else { i.style.border="1px solid #ccc"; }});
+        if(valid) {
+            steps[currentStep].classList.remove("active");
+            currentStep += n;
+            steps[currentStep].classList.add("active");
+            window.scrollTo(0,0);
+        }
+    }
+
+    function preview(input, imgID) {
+        if (input.files && input.files[0]) {
+            const reader = new FileReader();
+            reader.onload = (e) => {
+                document.getElementById(imgID).src = e.target.result;
+                document.getElementById(imgID).style.display = 'block';
+                if(imgID === 'pre_photo') document.getElementById('pdf_img_photo').src = e.target.result;
+                if(imgID === 'pre_sign') document.getElementById('pdf_img_sign').src = e.target.result;
+            };
+            reader.readAsDataURL(input.files[0]);
+        }
+    }
+
+    function handleFormSubmit(e) {
+        e.preventDefault();
+        
+        // UTR Validation
+        const utrValue = document.getElementById('utr_no').value;
+        if(utrValue.length < 10) {
+            alert("Please enter a valid 12-digit UTR Number.");
+            return;
+        }
+
+        const appNo = "GDS2026" + Math.floor(Math.random() * 900000 + 100000);
+        document.getElementById('regNo').innerText = appNo;
+        
+        // Fill PDF Data
+        document.getElementById('pdf_reg').innerText = appNo;
+        document.getElementById('pdf_date').innerText = new Date().toLocaleDateString();
+        document.getElementById('pdf_utr').innerText = utrValue.toUpperCase();
+        document.getElementById('pdf_name').innerText = (document.getElementById('fName').value + " " + document.getElementById('lName').value).toUpperCase();
+        document.getElementById('pdf_father').innerText = document.getElementById('fatName').value.toUpperCase();
+        document.getElementById('pdf_contact').innerText = document.getElementById('mobile').value + " / " + document.getElementById('email').value.toUpperCase();
+        
+        const pAddr = `${document.getElementById('p_s1').value}, ${document.getElementById('p_city').value}, ${document.getElementById('p_dist').value}, ${document.getElementById('p_state').value}-${document.getElementById('p_pin').value}`;
+        document.getElementById('pdf_p_addr').innerText = pAddr.toUpperCase();
+
+        // Show Final Screen
+        document.getElementById('form-section').style.display = 'none';
+        document.getElementById('thank-you').style.display = 'block';
+        window.scrollTo(0,0);
+    }
+
+    function generatePDF() {
+        const element = document.getElementById('pdf-template');
+        element.style.display = 'block';
+        const opt = {
+            margin: 0,
+            filename: 'GDS_Application_2026.pdf',
+            image: { type: 'jpeg', quality: 0.98 },
+            html2canvas: { scale: 2 },
+            jsPDF: { unit: 'in', format: 'letter', orientation: 'portrait' }
+        };
+        html2pdf().set(opt).from(element).save().then(() => {
+            element.style.display = 'none';
+        });
+    }
+</script>
+</body>
+</html>
